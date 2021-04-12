@@ -78,7 +78,7 @@ class SearchRepos extends React.Component {
       notification["error"]({
         message: this.state.isSearchStringEmpty ? 'Please enter username' : 'Try with another username',
         description:
-        this.state.isSearchStringEmpty ? 'Username cannot be empty' : 'No Record found for the given username.',
+        this.state.isSearchStringEmpty ? "Username can't be empty" : "Record not found for the given username.",
       });
     };
 
